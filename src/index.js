@@ -1,4 +1,9 @@
 import './style.css';
+import breakfast from './pageOne';
+import './pageOne';
+
+const content = document.getElementById('content');
+
 
 function test() {
     const element = document.createElement('div');
@@ -10,3 +15,4 @@ function test() {
 }
 
 document.body.appendChild(test());
+document.body.appendChild(breakfast);
