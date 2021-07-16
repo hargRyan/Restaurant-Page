@@ -1,6 +1,6 @@
 import './style.css';
 import breakfast from './pageOne';
-import './pageOne';
+
 
 const content = document.getElementById('content');
 

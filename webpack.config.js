@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     mode: 'development',
     entry: {
-        index: './src/index.js',
+        index: ['./src/index.js', './src/pageOne.js'],
     },
     devtool: 'inline-source-map',
     output: {
